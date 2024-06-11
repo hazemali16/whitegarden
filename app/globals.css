@@ -38,11 +38,10 @@ body {
   background-color: hsla(0, 0%, 0%, 0.5);
 }
 .service,
-.product img {
+.product {
   position: relative;
 }
-.service::before,
-.product img::before {
+.service::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -56,21 +55,22 @@ body {
   padding: 20px;
   background: white;
 }
+
 .slider {
   scroll-behavior: smooth;
   position: relative;
 }
-.slider::before {
+.slider > .before {
   content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 10;
   cursor: grab;
 }
-.slider-grabbing::before {
+.slider-grabbing > .before {
   cursor: grabbing;
 }
 @media (max-width: 991px) {
