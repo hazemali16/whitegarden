@@ -43,7 +43,9 @@ export default function Home() {
     let leftBtn = document.querySelector(".left-btn")
     let rightBtn = document.querySelector(".right-btn")
     let slider = document.querySelector(".slider")
-    let firstImageWidth = slider.children[0].children[0].children[0].clientWidth
+    slider.children[0].style.cssText= `width: ${slider.scrollWidth}px; transform: translateX(-${slider.scrollWidth - slider.clientWidth}px);`
+    console.log(slider.scrollWidth);
+    let firstImageWidth = slider.children[1].children[0].children[0].clientWidth
     rightBtn.onclick = () => {
         slider.scrollLeft += firstImageWidth + (slider.children[0].clientWidth * .1)
     }
@@ -78,3 +80,4 @@ export default function Home() {
     </div>
   );
 }
+
