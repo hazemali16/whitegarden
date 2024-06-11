@@ -24,6 +24,7 @@ const Menu = () => {
         <i className="fa-solid fa-arrow-right"></i>
         </div>
     <div className="mb-20 overflow-hidden slider">
+              <div className="before"></div>
             <div className="flex gap-[2%] items-center duration-300 py-5">
                 <div className="product shadow-xl">
                     <Image src={product1} alt="product1"/>
