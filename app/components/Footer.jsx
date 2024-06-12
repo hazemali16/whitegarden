@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="p-5 bg-[var(--heading-color)] text-white flex items-center justify-between max-md:flex-col max-md:gap-5">
+    <div className="p-5 bg-[var(--secondary-color)] text-white flex items-center justify-between max-md:flex-col max-md:gap-5 footer">
         <div className="text-2xl font-bold">وايت قاردن</div>
         <div className="flex items-center gap-3">
             رقم التواصل : 
