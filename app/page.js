@@ -18,9 +18,9 @@ export default function Home() {
       if (window.scrollY >= services.offsetTop - 600) {
         services.classList.remove("opacity-0")
         services.classList.remove("translate-y-10")
-        for (let index = 0; index < services.children[2].children.length; index++) {
-          services.children[2].children[index].classList.remove("opacity-0")
-          services.children[2].children[index].classList.remove("translate-y-10")
+        for (let index = 0; index < services.children[1].children.length; index++) {
+          services.children[1].children[index].classList.remove("opacity-0")
+          services.children[1].children[index].classList.remove("translate-y-10")
         }
       }
       if (window.scrollY >= menu.offsetTop - 600) {
