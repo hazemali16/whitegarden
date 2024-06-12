@@ -7,7 +7,7 @@ import branch4 from "../images/branch4.jpg"
 const Branches = () => {
     return (
         <div className="w-10/12 mx-auto pb-40 text-center opacity-0 translate-y-10 duration-500" id="branches">
-          <h2 className="mb-8 text-3xl font-bold text-[var(--heading-color)]">فروعنا</h2>
+          <h2 className="mb-8 text-3xl font-bold text-[var(--main-color)]">فروعنا</h2>
           <div className="grid mt-20 grid-cols-3 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1">
             <a href="https://goo.gl/maps/R9dvSiUDLYUDBHLh9" target="_blank" className="branch shadow-xl opacity-0 translate-y-10 duration-500 delay-500 h-96">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl font-bold text-white z-20">العليا</div>
