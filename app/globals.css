@@ -27,7 +27,6 @@ body {
 #hero {
   background-attachment: fixed;
   background-image: url('./images/DSC07888.jpg');
-  background-size: contain;
   position: relative;
 }
 #hero::before {
