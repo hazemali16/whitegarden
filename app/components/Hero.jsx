@@ -8,7 +8,6 @@ const Hero = () => {
       <Image className="w-full h-full object-cover" src={hero} alt="hero" />
     </div>
     <div className="relative z-20 text-center w-1/2 max-md:w-11/12 text-white overflow-hidden">
-    <h1 className="text-5xl font-bold max-md:text-3xl mb-10 max-md:mb-5">وايت قاردن</h1>
     <p className="text-lg leading-relaxed max-md:text-sm"> تجربة باقية ولحظات تلامس الحواس تجمع العائلة والأصدقاء والفصول الأربعة بلطف ولذة النكهات وعبق المبخرة والدلة السعودية من أجل أوقات ممتعة تفوق الأماني، ومجموعة جديدة من التجارب والفعاليات الاستثنائية لعشاق الأطباق الشهية.</p>
     </div>
   </div>
