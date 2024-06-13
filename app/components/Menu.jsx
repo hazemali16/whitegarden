@@ -9,9 +9,9 @@ import product8 from "../images/DSC07852.jpg"
 import product7 from "../images/DSC07892.jpg"
 import product9 from "../images/DSC07893.jpg"
 import product10 from "../images/product1.jpg"
-import product11 from "../images/product2.jpg"
 import product12 from "../images/product3.jpg"
 import product13 from "../images/product4.jpg"
+import product14 from "../images/product5.jpg"
 
 
 
@@ -61,13 +61,13 @@ const Menu = () => {
                     <Image src={product10} alt="product10"/>
                 </div>
                 <div className="product shadow-xl">
-                    <Image src={product11} alt="product11"/>
-                </div>
-                <div className="product shadow-xl">
                     <Image src={product12} alt="product12"/>
                 </div>
                 <div className="product shadow-xl">
-                    <Image src={product13} alt="product14"/>
+                    <Image src={product13} alt="product13"/>
+                </div>
+                <div className="product shadow-xl">
+                    <Image src={product14} alt="product14"/>
                 </div>
             </div>
         </div>
@@ -77,3 +77,4 @@ const Menu = () => {
 };
 
 export default Menu;
+
