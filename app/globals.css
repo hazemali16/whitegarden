@@ -23,20 +23,19 @@ html {
 body {
   direction: rtl;
 }
-
-#hero {
-  background-attachment: fixed;
+.hero {
   background-image: url('./images/DSC07888.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
-#hero::before {
+.hero::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(78, 105, 48, .3);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 105, 48, .4);
 }
 .service,
 .product {
