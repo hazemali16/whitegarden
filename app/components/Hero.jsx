@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import hero from '../images/DSC07888.jpg'
 
 const Hero = () => {
   return (
