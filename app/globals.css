@@ -96,16 +96,6 @@ body {
     opacity: 1;
   }
 }
-#hero h1 {
-  transform: translateY(-110%);
-  animation: 1s hero-title-show linear forwards .5s;
-}
-
-@keyframes hero-title-show {
-  to {
-    transform: translateY(0);
-  }
-}
 
 #hero p {
   transform: translateX(110%);
