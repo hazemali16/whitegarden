@@ -1,7 +1,6 @@
 import Image from "next/image";
 import service1 from "../images/DSC07815.jpg"
 import service3 from "../images/DSC07822.jpg"
-import service4 from "../images/services1.jpg"
 import service5 from "../images/services2.jpg"
 import service6 from "../images/services3.jpg"
 import service7 from "../images/services4.jpg"
@@ -20,10 +19,7 @@ const Services = () => {
         </div>        
         <div className="service opacity-0 translate-y-10 duration-500 delay-1000">
           <Image src={service3} alt="service3"/>
-        </div>
-        <div className="service opacity-0 translate-y-10 duration-500 delay-[1.3s]">
-          <Image src={service4} alt="service4"/>
-        </div>        
+        </div>    
         <div className="service opacity-0 translate-y-10 duration-500 delay-[1.5s]">
           <Image src={service5} alt="service5"/>
         </div>        
