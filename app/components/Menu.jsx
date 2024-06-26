@@ -19,7 +19,7 @@ const Menu = () => {
   return (
     <div className="pb-40 text-center opacity-0 translate-y-10 duration-500" id="menu">
         <div className="w-10/12 mx-auto">
-        <p className="w-1/2 leading-relaxed mx-auto max-lg:w-3/4 max-md:w-full text-xl text-[var(--main-color)]">نجهز بعناية في وايت قادرن احتياجاتكم من السعرات الحرارية للمحافظة على نضارتكم ونشاطكم من خلال المكونات وطرق التحضير كما تعد مأكولاتنا لغة عالمية لها القدرة على التقريب بين الأحبة عبر أشهى الأطباق لإرضاء جميع الأذواق.</p></div>
+        <h2 className="w-1/2 leading-relaxed mx-auto max-lg:w-3/4 max-md:w-full text-xl text-[var(--main-color)]">نجهز بعناية في وايت قادرن احتياجاتكم من السعرات الحرارية للمحافظة على نضارتكم ونشاطكم من خلال المكونات وطرق التحضير كما تعد مأكولاتنا لغة عالمية لها القدرة على التقريب بين الأحبة عبر أشهى الأطباق لإرضاء جميع الأذواق.</h2></div>
     <div className="relative mt-20">
     <div className="absolute left-btn left-5 top-1/2 cursor-pointer -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center bg-white shadow-xl">
         <i className="fa-solid fa-arrow-left"></i>
